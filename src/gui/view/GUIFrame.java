@@ -20,7 +20,7 @@ public class GUIFrame extends JFrame
 	{
 		this.setTitle("GUIFrame Window");
 		this.setSize(500,500);
-		this.setResizable(true);
+		this.setResizable(false);
 		this.setVisible(true);
 	}
 }
