@@ -50,10 +50,17 @@ public class GUIPanel extends JPanel
 	}
 	
 	/**
-	 * 
+	 * This helper method is used to link any GUI components the associated listeners.
 	 */
 	private void setupListeners()
 	{
-		
+		firstButton.addActionListener(new ActionListener()
+			{
+				public void actionPerformed(ActionEvent click) 
+				{
+					
+				}
+				
+			});
 	}
 }
