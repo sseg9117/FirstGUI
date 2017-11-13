@@ -1,10 +1,10 @@
 package gui.controller;
 
-public class guiAppRunner
+public class GUIRunner
 {
 	public static void main (String [] args)
 	{
-		guiAppController myapp = new guiAppController();
+		GUIAppController myApp = new GUIAppController();
 		myApp.start();
 	}
 

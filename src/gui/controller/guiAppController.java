@@ -1,6 +1,11 @@
 package gui.controller;
 
-public class guiAppController
+public class GUIAppController
 {
+
+	public void start()
+	{
+		
+	}
 
 }
