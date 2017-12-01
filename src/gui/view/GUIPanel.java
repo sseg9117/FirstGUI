@@ -1,12 +1,14 @@
 package gui.view;
 
-import gui.controller.GUIAppController;
-import javax.swing.JButton;
-import javax.swing.JPanel;
 import java.awt.Color;
-import javax.swing.SpringLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JPanel;
+import javax.swing.SpringLayout;
+
+import gui.controller.GUIAppController;
 
 public class GUIPanel extends JPanel
 {
@@ -54,7 +56,7 @@ public class GUIPanel extends JPanel
 	{
 		firstButton.addActionListener(new ActionListener()
 			{
-				public void actionPerformed(ActionEvent click) //this mkaes it so when the button is pressed the action thats called works
+				public void actionPerformed(ActionEvent click) //this makes it so when the button is pressed the action thats called works
 				{
 					changeBackgroundColor();
 				}			
@@ -64,7 +66,7 @@ public class GUIPanel extends JPanel
 	private void changeBackgroundColor()
 	{
 		int red = (int) (Math.random() * 256);
-		int green = (int) (Math.random() * 256);//changes the background color to random color 
+		int green = (int) (Math.random() * 256); //changes the background color to random color 
 		int blue = (int) (Math.random() * 256);
 		
 		this.setBackground(new Color(red, green, blue));
